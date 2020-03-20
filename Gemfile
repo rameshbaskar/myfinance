@@ -1,17 +1,17 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'rails'
 gem 'rails-controller-testing'
 gem 'pg'
-gem 'puma', '~> 3.0'
-gem 'bootstrap-sass', '~>3.3.1'
+gem 'puma'
+gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.2'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
 gem 'jquery-rails'
-gem 'turbolinks', '~> 5'
-gem 'jbuilder', '~> 2.5'
+gem 'turbolinks'
+gem 'jbuilder'
 gem 'rspec-rails'
 gem 'devise'
 
@@ -24,10 +24,10 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
-  gem 'listen', '~> 3.0.5'
+  gem 'listen'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
